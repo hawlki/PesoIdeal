@@ -43,11 +43,11 @@ namespace pesoideal
 
             else if(sexo.Equals("F"))
             {
-              Console.WriteLine();
-              Console.ForegroundColor = ConsoleColor.Magenta;
-              Console.WriteLine($"Seu peso ideal é {pesoIdealF:N1}kg");
-              Console.ResetColor();
-              Environment.Exit(1);
+                Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.Magenta;
+                Console.WriteLine($"Seu peso ideal é {pesoIdealF:N1}kg");
+                Console.ResetColor();
+                Environment.Exit(1);
             }
 
             else
